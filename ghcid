@@ -1,0 +1,5 @@
+#!/bin/bash
+
+MODULES="STG/Syntax.hs STG/Semantics/StateMachine.hs"
+
+ghcid -c "ghci $MODULES -package containers"
